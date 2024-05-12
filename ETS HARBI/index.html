@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARBI-RENOVATION</title>
+    <link rel="stylesheet" href="/style .css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="HARBI-RENOVATION, spécialiste en rénovation à Lyon.">
+</head>
+
+<body>
+    <div id="welcomeBanner" class="welcome-banner">
+        <p>Prêt à transformer votre espace ?</p>
+        <a href="#project-form" class="action-button">Commencez votre projet maintenant</a>
+    </div>
+    <div></div>
+    <header class="header">
+        <div class="header-content">
+            <h1 class="header-title">HARBI-RENOVATION</h1>
+            <p> <strong>Votre spécialiste rénovation en région Auvergne-Rhône-Alpes</strong></p>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <a href="#about">À propos</a>
+        <a href="#services">Services</a>
+        <a href="#commitment">Engagement</a>
+        <a href="#professional-info">Infos Pro</a>
+        <a href="#quotes-visits">Devis & Visites</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main class="container">
+        <section id="about" class="section">
+            <div class="section-content">
+                <h2 class="section-title">À propos de nous</h2>
+                <p>Nous sommes une entreprise spécialisée dans la rénovation complète de tous types de surfaces en
+                    région Auvergne-Rhône-Alpes. <br>Notre passion pour notre métier se reflète dans la qualité exceptionnelle de nos réalisations.
+                </p>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Services & Expertises</h2>
+                <ul>
+                    <li> <strong>Rénovation complète :</strong> <br><em>Appartements, Villas, Bureaux, Commerces</em>
+                    </li>
+                    <br>
+                    <li><strong>Tous Corps d'État :</strong> <br><em>Service complet et de qualité</em></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="commitment" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Nos engagement et professionnalisme</h2>
+                <p>Nous nous engageons à réaliser vos rêves en écoutant vos besoins et en trouvant les solutions
+                    parfaitement adaptées.</p>
+                <p>Notre professionnalisme repose sur une oreille attentive à chacun des désirs de nos clients. Nous
+                    recherchons les produits parfaitement adaptés à vos besoins.</p>
+                <p>Si vous souhaitez obtenir un devis de travaux ou visiter un chantiers effectués par nos
+                    soins, nous sommes à votre disposition, quel que soit votre projet. Un devis détaillé, présenté et
+                    chiffré poste par poste, vous sera remis dans les 7 jours.</p>
+                <p>Le suivi de votre chantier est assuré deux fois par semaine, ce qui permet d'ajuster le projet en
+                    cours de réalisation. Nous nous engageons à respecter les prix convenus dans le devis initial.</p>
+            </div>
+        </section>
+
+        <section id="professional-info" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Informations Professionnelles</h2>
+                <p>Adresse : 31 Rue Cavenne, 69007 Lyon, France</p>
+                <p>SIRET : 39046084800042</p>
+                <p>Code NAF : 43.31Z</p>
+            </div>
+        </section>
+
+        <section id="project-form" class="section">
+            <h2 class="section-title">Décrivez votre projet</h2>
+            <p>Pour remplir ce formulaire texte en dictez vocale , cliquez sur l'icône du microphone à côté de chaque
+                champ et dictez vos informations.
+                Chaque dictez vocale est limité à 10 secondes. Cliquez à nouveau pour continuer.</p>
+            <form id="projectRequestForm">
+                <label for="fullName">Nom complet : <br></label>
+                <input type="text" id="fullName" name="fullName" required>
+                <button type="button" aria-label="Démarrer la reconnaissance vocale pour le nom complet">cliquez sur
+                    l'icône du microphone pour dictez vos informations</button>
+
+                <label for="email">Email : <br></label>
+                <input type="email" id="email" name="email" required>
+                <button type="button" aria-label="Démarrer la reconnaissance vocale pour l'email">cliquez sur l'icône du
+                    microphone pour dictez vos informations</button>
+
+                <label for="phone">Téléphone : <br></label>
+                <input type="tel" id="phone" name="phone" required>
+                <button type="button" aria-label="Démarrer la reconnaissance vocale pour le téléphone">cliquez sur
+                    l'icône du microphone pour dictez vos informations</button>
+
+                <label for="projectType">Type de projet : <br></label>
+                <select id="projectType" name="projectType" required>
+                    <option value="">Sélectionnez un type</option>
+                    <option value="renovation">Rénovation</option>
+                    <option value="construction">Construction</option>
+                    <option value="decoration">Décoration</option>
+                </select>
+
+                <label for="message">Message : <br></label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="button" aria-label="Démarrer la reconnaissance vocale pour le message">cliquez sur l'icône
+                    du microphone pour dictez vos informations</button>
+
+                <input type="submit" value="Envoyer" class="submit-button">
+            </form>
+        </section>
+
+        <section id="quotes-visits" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Devis et Visites</h2>
+                <p>Nous sommes à votre disposition pour établir un devis précis et détaillé pour votre projet. Venez
+                    découvrir
+                    la qualité de notre travail à travers des visites de nos réalisations.</p>
+            </div>
+        </section>
+
+
+        <section id="contact" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Contactez-nous</h2>
+                <p>Pour toute question ou demande de devis, n'hésitez pas à nous contacter :</p>
+                <address>
+                    31 Rue Cavenne, 69007 Lyon, France<br>
+                    Email: contact@harbirenovation.fr<br>
+                    Téléphone: +33 4 78 00 00 00
+                </address>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2024 HARBI-RENOVATION. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="https://facebook.com/votre_profil">Facebook</a>
+                <a href="https://twitter.com/votre_profil">Twitter</a>
+                <!-- Autres liens -->
+            </div>
+            <form action="newsletter.php" method="post">
+                <input type="email" name="email" placeholder="Inscrivez-vous à notre newsletter">
+                <button type="submit">S'inscrire</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
